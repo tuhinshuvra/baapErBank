@@ -9,6 +9,7 @@ document.getElementById('submit').addEventListener('click', function () {
 
     if (email === 'pola@baap.com' && password === '123456') {
         alert('Yor are a valid user');
+        window.location.href = 'bank.html';
     } else {
         alert('Sorry! Your user name or password invalid')
     }
